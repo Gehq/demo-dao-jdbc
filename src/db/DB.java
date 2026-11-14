@@ -39,7 +39,7 @@ public class DB {
 	}
 
 	private static Properties loadProperties() {
-		try(FileInputStream fs =  new FileInputStream("src/db.properties")){
+		try(FileInputStream fs =  new FileInputStream("db.properties")){
 			Properties props = new Properties();
 			props.load(fs);//o comando load do objeto properties, relaiza a leitura do arquivo
 //properties que é apontado pelo FileInputStream=fs assim quardado os dados dentro do objeto properties
